@@ -96,3 +96,4 @@ else if (pathname === "/api/v1/teams/" && method == "PU") {
 server.listen(PORT, () => {
   console.log("SIH Server is running at ", PORT);
 });
+
