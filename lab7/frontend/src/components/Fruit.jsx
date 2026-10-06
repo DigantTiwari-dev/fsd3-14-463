@@ -1,0 +1,19 @@
+import React from 'react'
+
+
+const products = [
+    {title:'Cabbage', id:1, isFruit:false},
+    {title:'Potato', id:2, isFruit:false},
+    {title:'Banana', id:3, isFruit:true},
+    {title:'Apple', id:4, isFruit:true},
+]
+
+const ListItem = products.map((item)=>(
+    <li>(item.title)</li>
+))
+
+const Fruit = () => {
+  return <ul>(ListItem)</ul>;
+};
+
+export default Fruit

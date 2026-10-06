@@ -1,5 +1,4 @@
 # Frontend - Backend
-# Frontend - Backend
 1. create project folder (lab7)
 2. create two folder fontend and backend
 3. open terminal and split it into two
@@ -25,7 +24,7 @@
    d. select variant as javascript from arrow key
    
    f. selct install and start the frontend
-## components
+## Components
 1. simple js functions return html directory
 2. it must starts with capital letter
 3. it should be treated as html tag
@@ -54,3 +53,6 @@ const qtyStyle = {
   then apply with style attribute and pass the object
   
 3. inline - in this method we use 2 curly bracket with style attribute. All the CSS property must be sinlge word. for ex: text-align becomes textAlign(camel case)
+
+rafce - arrow
+rfce - function
