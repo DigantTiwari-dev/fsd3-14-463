@@ -15,5 +15,5 @@ export const pens = [
   price: 1199,
   quantity: 10,
   rating: 5.0,
-};
+}
 ]
