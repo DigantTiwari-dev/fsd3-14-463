@@ -4,7 +4,7 @@ const server = http.createServer((req,res)=>{
     console.log(req.url);
 
     console.log("Request Method: ");
-    console.log(req.mehtod);
+    console.log(req.method);
 
     console.log("Request header: ");
     console.log(req.headers);

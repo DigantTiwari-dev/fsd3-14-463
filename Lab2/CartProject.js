@@ -5,7 +5,7 @@ import { log } from "console";
 import { join } from "path";
 
 //Database using file starts
-const FILE = "product.json";
+const FILE = "project.json";
 
 const getCart = async ()=>{
     const data = await readFile(FILE,"utf-8");

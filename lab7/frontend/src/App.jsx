@@ -1,22 +1,31 @@
-import Book from "./components/Book";
-import Pen from "./components/Pen"
-import { Books } from "./Data/books";
-import { pens } from "./Data/pens";
-import fruit from "./components/fruit";
+// import Book from "./components/Book";
+// import Fruit from "./components/Fruit";
+// import Pen from "./components/Pen";
+// import { books } from "./data/books";
+// import { pens } from "./data/pen";
+// import fruit from "./components/Fruit";
+// import Event from "./components/Event";
+
+const MyButton = ()=>{
+  let count = 1;
+  const handleSubmit = ()=>{
+    console.log("button clicked", count);
+    count++
+  };
+  return(
+    <button 
+    className ="bg-black text-white
+    text-x1 rounded-md
+    m-4 px-4 py-2" onClick={handleSubmit}>
+      clicked{count} times
+    </button>
+  )
+}
 
 export default function App(){
   return (
   <>
-  <h1>Online Bookstore</h1>
-  <div className="container">
-  <Book book={Books[0]} />
-  <Book book={Books[1]} />
-  <Book book={Books[0]} />
-  <Book book={Books[1]} />
-  <Pen pen={pens[0]}/>
-  <Pen pen={pens[1]}/>
-  <Fruit fruit = {fruit[0]}/>
-  </div>
+  <MyButton/>
   </>
   );
 }
